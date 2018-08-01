@@ -1,0 +1,87 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  line-height: 350px;
+}
+
+.store-image {
+  width: 800px;
+  height: 400px;
+  background-image: url("https://cdn.glitch.com/ed07e5ca-f8c4-42f4-9b64-980ded726064%2Fstore-interior.jpg?1524172509943");
+  opacity: .65;
+}
+
+nav {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: grey;
+  padding: 5px 0px; 
+}
+
+nav li {
+ display: inline-block; 
+}
+
+.navLinks {
+ padding: 5px 10px 5px 0px; 
+ color: #191919;
+ text-decoration: none; 
+}
+
+.navLinks:hover {
+ color: rgba(25, 25, 25, 0.27); 
+ text-decoration: underline; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.directions {
+ color: #191919;  
+}
+.directions:hover {
+ color: rgba(25, 25, 25, 0.27);  
+}
+
+.plant {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  border-color: rgba(25, 25, 25, 0.27);
+}
+
+.flex-grid {
+ display: flex; 
+ justify-content: space-between;
+}
+.flex-grid .plant-image {
+  height: 75%;
+  width: 25%;
+}
+
+.flex-grid .plant-info {
+  width: 70%;
+  
+}
+footer {
+  text-align: center;
+  font-size: .8rem;
+  color: rgba(25, 25, 25, 0.27);
+  border-top: 1px solid black;
+  border-color: rgba(25, 25, 25, 0.27);
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
