@@ -1,0 +1,121 @@
+
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: white;
+  color: #0A090C;
+  max-width: 1240px;
+  margin: 0 auto; 
+}
+.site-logo{
+  background-color: #194996;
+  color: white;
+  padding: 20px 90px;
+  border-bottom: 3px solid #6bdeff;
+}
+.container{
+ max-width: 1100px;
+ margin: 10px auto;
+}
+h2 {
+  padding: 0px 20px;
+}
+
+p {
+  padding: 10px 20px;
+}
+.search {
+  background-color: #e8e8e8;
+  margin: 0px 20px;
+  padding: 10px 20px;
+}
+
+.search__choice {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 25px;
+}
+.search__choice label {
+ display: block;  
+}
+
+input[type] {
+ margin: 0 5px; 
+}
+
+.row {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.animal { 
+  margin-top: 10px;
+  display: inline-block;
+  max-width: 33%;
+  vertical-align: top;
+}
+
+.animal__name {
+  display: inline-block;
+  font-family: Oswald;
+  font-weight: bold;
+  line-height: 1.5;
+  
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.animal__trait {
+  display: inline-block;
+  background-color: #6bdeff;
+  padding: 0px 10px;
+  margin: 2px 0;
+  border-radius: 10px;
+}
+.footer {
+ overflow: auto; 
+}
+
+.footer__block {
+   float: left;
+   color: white; 
+   text-align: center;
+   
+ 
+}
+
+.footer__block--donate {
+  background: linear-gradient(rgba(150, 150, 250, 0.7),rgba(150, 150, 250, 0.7)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137);
+  height: 300px;
+  width: 33%;
+  
+}
+
+.footer__block--volunteer {
+  background: linear-gradient(rgba(150, 150, 250, 0.7),rgba(150, 150, 250, 0.7)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718);
+  width: 33%;
+  height: 300px;
+}
+
+.footer__block--location{
+  background: linear-gradient(rgba(150, 150, 250, 0.7),rgba(150, 150, 250, 0.7)), no-repeat center/cover url(https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805);
+  width: 33%;
+  height: 300px;
+}
+
+.footer__block a{
+   color: white; 
+   line-height: 300px;
+   vertical-align: middle;
+   text-decoration: none;
+   font-family: Oswald;
+   font-size: 60px;
+}
+
